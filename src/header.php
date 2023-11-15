@@ -1,13 +1,16 @@
 <?php
-require_once __DIR__ . '/linkval.php';
+require_once __DIR__ . '/linkPath.php';
 ?>
+
 <!DOCTYPE html>
 <html lang="ja">
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="/freamstyle.css">
     <title>メインページ</title>
+    <link rel="stylesheet" type="text/css" href="<?=  ?>">
 </head>
 
 <body>
+    <div class="main">
+        
