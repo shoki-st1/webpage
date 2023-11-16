@@ -1,2 +1,27 @@
 services:
-  
+  web:
+    build: .
+    ports:
+      - 8080:80
+    volumes:
+      - ./src:/var/www/html
+
+    links:
+      - db
+  db:
+    image: mysql
+    env_file:
+      - ./config.env
+    volumes:
+      - db:/var/lib/mysql/
+    # 言語設定
+    command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+
+  phpadmin:
+    image: phpmyadmin
+    ports:
+      - 8085:80
+    environment:
+      - PMA_HOST=db
+volumes:
+  db:

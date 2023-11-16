@@ -8,9 +8,10 @@ require_once __DIR__ . '/linkPath.php';
 <head>
     <meta charset="UTF-8">
     <title>メインページ</title>
-    <link rel="stylesheet" type="text/css" href="<?=  ?>">
+    <!-- <link rel="stylesheet" type="text/css" href="<?= ?>"> -->
 </head>
 
 <body>
     <div class="main">
-        
+
+        <hr>
