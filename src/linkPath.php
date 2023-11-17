@@ -2,10 +2,9 @@
 //リンクのまとめられた変数
 
 //セッションが無ければ開始
-if (!isset($_SESSION)) {
-    session_start();
-    session_destroy();
-}
+// if (!isset($_SESSION)) {
+//     session_start();
+// }
 
 //ホストネーム
 //$http_hostname = '//' . $_SERVER['SERVER_NAME'] . ':8080/';
