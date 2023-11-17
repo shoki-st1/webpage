@@ -5,13 +5,19 @@ services:
       - 8080:80
     volumes:
       - ./src:/var/www/html
-
+      - ./apache.conf:/etc/apache2/conf-available/apache.conf/
     links:
       - db
   db:
     image: mysql
     env_file:
       - ./config.env
+    # environment:
+    #   - MYSQL_ROOT_PASSWORD=root
+    #   - MYSQL_DATABASE=teamdb
+    #   - MYSQL_USER=star
+    #   - MYSQL_PASSWORD=pass
+    #   - TZ=Asia/Tokyo
     volumes:
       - db:/var/lib/mysql/
     # 言語設定

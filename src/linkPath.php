@@ -4,6 +4,13 @@
 //セッションが無ければ開始
 if (!isset($_SESSION)) {
     session_start();
+    session_destroy();
 }
 
-$http_hostname = '//' . $_SERVER['SERVER_NAME'];
+//ホストネーム
+//$http_hostname = '//' . $_SERVER['SERVER_NAME'] . ':8080/';
+
+//cssのパス
+$web_css = '/css/freamstyle.css';
+//ハンバーガーメニューのパス
+$humscript_path = '/JScode/humscript.js';
