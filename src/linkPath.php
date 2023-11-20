@@ -13,3 +13,9 @@
 $web_css = '/css/freamstyle.css';
 //ハンバーガーメニューのパス
 $humscript_path = '/JScode/humscript.js';
+
+//ホームのパス
+$web_home_path = '/index.php';
+
+//テスト用の為後に変更
+$web_page1_path = '/linkPage/test1.php';

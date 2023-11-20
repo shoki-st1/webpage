@@ -23,6 +23,10 @@ body {
     transition: 0.4s;
 }
 
+.my-button:hover {
+    background-color: #7d8d99;
+}
+
 .menu {
     list-style-type: none;
     margin: 0;

@@ -20,10 +20,10 @@ require_once __DIR__ . '/linkPath.php';
             <div class="bar"></div>
         </div>
         <ul class="menu">
-            <li><a href="#">ホーム</a></li>
-            <li><a href="#">その1</a></li>
-            <li><a href="#">その2</a></li>
-            <li><a href="#">その3</a></li>
+            <li><a href="<?= $web_home_path ?>" class="my-button">ホーム</a></li>
+            <li><a href="<?= $web_page1_path ?>" class="my-button">その1</a></li>
+            <li><a href="#" class="my-button">その2</a></li>
+            <li><a href="#" class="my-button">その3</a></li>
         </ul>
     </div>
 
