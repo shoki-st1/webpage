@@ -6,9 +6,8 @@ $barname = "メインページ";
 require_once __DIR__ . '/header.php';
 ?>
 
-<h1>ホーム</h1>
-<!--indexは最初に表示させたい画面にする-->
-<a></a>
+<!---->
+<!-- <script src=""></script> -->
 
 
 <?php

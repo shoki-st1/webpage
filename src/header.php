@@ -28,14 +28,10 @@ require_once __DIR__ . '/linkPath.php';
         <!-- メニュー -->
         <ul class="menu">
             <li><a href="<?= $web_home_path ?>" class="my-button">ホーム</a></li>
-            <li><a href="<?= $web_page1_path ?>" class="my-button">test1ページ</a></li>
+            <li><a href="<?= $web_page1_path ?>" class="my-button">ゲームページ</a></li>
             <li><a href="#" class="my-button">その2</a></li>
             <li><a href="#" class="my-button">その3</a></li>
         </ul>
     </div>
     <!-- ボタンを押したときの処理のスクリプト -->
     <script src="<?= $humscript_path ?>"></script>
-
-
-
-    <center>

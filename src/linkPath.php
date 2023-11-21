@@ -11,11 +11,16 @@
 
 //cssのパス
 $web_css = '/css/freamstyle.css';
-//ハンバーガーメニューのパス
+//ハンバーガーメニューのパス<js>
 $humscript_path = '/JScode/humscript.js';
+
 
 //ホームのパス
 $web_home_path = '/index.php';
 
-//テスト用の為後に変更
-$web_page1_path = '/linkPage/test1.php';
+//ゲームページ
+$web_page1_path = '/linkPage/gamepage.php';
+//ゲームページのゲームパス<js>
+/*タイピングとモグラたたきのゲームで出てくるモグラにabcなどの記号
+を持たせてタイピングも出来るゲーム*/
+$game_path = '/JScode/MoleBreakbgame.js';
