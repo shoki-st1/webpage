@@ -1,20 +1,37 @@
 body {
     margin: 0;
+    margin-top: 60px;
     font-family: 'Arial', sans-serif;
 }
 
+/*タイトルなどのバー*/
 .navbar {
     background-color: #333;
-    padding: 15px;
+    padding: 1px 15px;
     display: flex;
-    justify-content: flex-end;
-    /* 右寄せ */
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    height: 60px;
+
 }
 
+/*バーのタイトル*/
+.navbar-title {
+    color: white;
+    margin: 0;
+    transform: translateX(40px);
+}
+
+/*メニューのボタン*/
 .menu-toggle {
     cursor: pointer;
 }
 
+/*メニューボタンのデザイン*/
 .bar {
     width: 30px;
     height: 3px;
@@ -23,31 +40,34 @@ body {
     transition: 0.4s;
 }
 
+/*メニューのリストをマウスポインタが通ると色つく*/
 .my-button:hover {
     background-color: #7d8d99;
 }
 
+/*メニューのリスト*/
 .menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    display: flex;
     flex-direction: column;
     background-color: #333;
     position: absolute;
     top: 60px;
-    /* メニューのトップ位置 */
-    right: -200px;
-    /* 初期状態では画面外に隠れている */
-    width: 200px;
+    left: 200px;
+    width: -200px;
     transition: 0.4s;
+    display: none;
 }
 
+
+/*リストの幅*/
 .menu li {
     padding: 15px;
 }
 
+/*リストの名前の文字*/
 .menu a {
     display: block;
     color: white;
@@ -55,11 +75,14 @@ body {
     text-decoration: none;
 }
 
+/*ボタンが押されたときのリストメニュー*/
 .menu.show {
-    right: 0;
+    left: 0;
+    display: flex;
     /* メニューが表示されるときは右にスライド */
 }
 
+/*スクリーンの大きさが変わったとき*/
 @media screen and (max-width: 600px) {
     .menu li {
         padding: 10px;
