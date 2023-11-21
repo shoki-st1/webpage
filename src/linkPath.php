@@ -6,8 +6,6 @@
 //     session_start();
 // }
 
-//ホストネーム
-//$http_hostname = '//' . $_SERVER['SERVER_NAME'] . ':8080/';
 
 //cssのパス
 $web_css = '/css/freamstyle.css';
@@ -18,8 +16,12 @@ $humscript_path = '/JScode/humscript.js';
 //ホームのパス
 $web_home_path = '/index.php';
 
+//マイアイデアページ
+$web_MYIDEA_path = '/linkPage/myidea.php';
+
+
 //ゲームページ
-$web_page1_path = '/linkPage/gamepage.php';
+$web_GAME_path = '/linkPage/gamepage.php';
 //ゲームページのゲームパス<js>
 /*タイピングとモグラたたきのゲームで出てくるモグラにabcなどの記号
 を持たせてタイピングも出来るゲーム*/

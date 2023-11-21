@@ -25,11 +25,21 @@ require_once __DIR__ . '/linkPath.php';
             <h1><?= $barname ?></h1>
         </div>
 
+        <!-- ログインしているユーザー名の表示 -->
+        <!--メニューも必要-->
+
+
+
         <!-- メニュー -->
         <ul class="menu">
+            <!--他のアカウントの人達が出してくれたアイデアの一覧表示-->
             <li><a href="<?= $web_home_path ?>" class="my-button">ホーム</a></li>
-            <li><a href="<?= $web_page1_path ?>" class="my-button">ゲームページ</a></li>
-            <li><a href="#" class="my-button">その2</a></li>
+            <!--自分の出したアイデアを表示させるページ-->
+            <!-- アイデアを出すボタン -->
+            <li><a href="<?= $web_MYIDEA_path ?>" class="my-button">マイアイデア</a></li>
+            <!--ミニゲームのページ-->
+            <li><a href="<?= $web_GAME_path ?>" class="my-button">ミニゲーム</a></li>
+
             <li><a href="#" class="my-button">その3</a></li>
         </ul>
     </div>
