@@ -14,7 +14,7 @@ $humscript_path = '/JScode/humscript.js';
 
 
 //ホームのパス
-$web_home_path = '/index.php';
+$web_HOME_path = '/index.php';
 
 //マイアイデアページ
 $web_MYIDEA_path = '/linkPage/myidea.php';
