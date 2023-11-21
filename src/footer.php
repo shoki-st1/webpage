@@ -1,8 +1,8 @@
-<hr>
-<a>end</a>
+</center>
+<a>ここからはフッター</a>
 
-<li></li>
-<li></li>
+<li>サイトの</li>
+<li>あれやこれ</li>
 
 </body>
 

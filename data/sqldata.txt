@@ -1,0 +1,35 @@
+--sqlの設定--
+
+--dbの作成----------------------------------------------------
+CREATE DATABASE IF NOT EXISTS datadb CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE datadb;
+
+---------------------------------------------------------------------
+P:ユーザID (文字型)
+パスワード   (文字型)
+---------------------------------------------------------------------
+--usertableの作成--
+CREATE TABLE IF NOT EXISTS user_table
+(
+  userid VARCHAR(255) NOT NULL,
+  password VARCHAR(255) NOT NULL,
+  PRIMARY KEY (`userid`)
+  );
+---------------------------------------------------------------------
+
+--起動のコピペ用--
+docker compose exec db bash
+mysql -p
+-パスワード入力
+use datadb;
+
+drop table ???;
+
+select * from user_table;
+select * from task_table;
+
+----------------------------------------------------------------------
+--テストデータのINSERT--
+--userdb_table--
+INSERT INTO userdb_table(userid) VALUES('test');
+INSERT INTO userdb_table(password) VALUES ('pass');

@@ -12,6 +12,7 @@ require_once __DIR__ . '/linkPath.php';
 </head>
 
 <body>
+    <title><?= $pageTitle ?></title>
     <div class="navbar">
         <!--ハンバーガー-->
         <div class="menu-toggle" onclick="toggleMenu()">
@@ -21,15 +22,20 @@ require_once __DIR__ . '/linkPath.php';
         </div>
         <!--ページ名-->
         <div class="navbar-title">
-            <h1><?= $pageTitle ?></h1>
+            <h1><?= $barname ?></h1>
         </div>
 
+        <!-- メニュー -->
         <ul class="menu">
             <li><a href="<?= $web_home_path ?>" class="my-button">ホーム</a></li>
-            <li><a href="<?= $web_page1_path ?>" class="my-button">その1</a></li>
+            <li><a href="<?= $web_page1_path ?>" class="my-button">test1ページ</a></li>
             <li><a href="#" class="my-button">その2</a></li>
             <li><a href="#" class="my-button">その3</a></li>
         </ul>
     </div>
-
+    <!-- ボタンを押したときの処理のスクリプト -->
     <script src="<?= $humscript_path ?>"></script>
+
+
+
+    <center>
