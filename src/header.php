@@ -33,7 +33,7 @@ require_once __DIR__ . '/linkPath.php';
         <!-- メニュー -->
         <ul class="menu">
             <!--他のアカウントの人達が出してくれたアイデアの一覧表示-->
-            <li><a href="<?= $web_home_path ?>" class="my-button">ホーム</a></li>
+            <li><a href="<?= $web_HOME_path ?>" class="my-button">ホーム</a></li>
             <!--自分の出したアイデアを表示させるページ-->
             <!-- アイデアを出すボタン -->
             <li><a href="<?= $web_MYIDEA_path ?>" class="my-button">マイアイデア</a></li>
