@@ -9,7 +9,11 @@ require_once __DIR__ . '/linkPath.php';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--cssは後の方が優先-->
+    <!--マイアイデアcss-->
+    <link rel="stylesheet" type="text/css" href="<?= $web_idea_css ?>">
+    <!--game用css-->
     <link rel="stylesheet" type="text/css" href="<?= $web_gamepage_css ?>">
+    <!--固定のcss(ハンバーガー)-->
     <link rel="stylesheet" type="text/css" href="<?= $web_css ?>">
 </head>
 

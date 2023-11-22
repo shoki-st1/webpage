@@ -10,6 +10,8 @@
 //cssのパス
 //固定部分のcss
 $web_css = '/css/freamstyle.css';
+//マイアイデアのcss
+$web_idea_css = '/css/ideafream.css';
 //ゲーム画面のcss
 $web_gamepage_css = '/css/gamefream.css';
 //ハンバーガーメニューのパス<js>
