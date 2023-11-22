@@ -8,11 +8,14 @@ require_once __DIR__ . '/linkPath.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--cssは後の方が優先-->
+    <link rel="stylesheet" type="text/css" href="<?= $web_gamepage_css ?>">
     <link rel="stylesheet" type="text/css" href="<?= $web_css ?>">
 </head>
 
 <body>
-    <title><?= $pageTitle ?></title>
+    <!--タブの名前-->
+    <title>アイデア's</title>
     <div class="navbar">
         <!--ハンバーガー-->
         <div class="menu-toggle" onclick="toggleMenu()">
@@ -20,7 +23,7 @@ require_once __DIR__ . '/linkPath.php';
             <div class="bar"></div>
             <div class="bar"></div>
         </div>
-        <!--ページ名-->
+        <!--ページ名(バーに表示)-->
         <div class="navbar-title">
             <h1><?= $barname ?></h1>
         </div>

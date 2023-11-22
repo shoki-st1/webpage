@@ -8,7 +8,10 @@
 
 
 //cssのパス
+//固定部分のcss
 $web_css = '/css/freamstyle.css';
+//ゲーム画面のcss
+$web_gamepage_css = '/css/gamefream.css';
 //ハンバーガーメニューのパス<js>
 $humscript_path = '/JScode/humscript.js';
 

@@ -1,6 +1,5 @@
 <?php
-//タブの名前とバーの名前
-$pageTitle = "アイデア's";
+//バーの名前
 $barname = "メインページ";
 //ヘッダーの読み込み
 require_once __DIR__ . '/header.php';
