@@ -7,12 +7,16 @@ require_once __DIR__ . '/../header.php';
 ?>
 
 <!--自分の出したアイデアを表示させるページ-->
-<!-- アイデアを入力、送信ボタン -->
+
+<!--ポップアップのボタン-->
+<button class="idea-plus">+</button>
+
+<!--ポップアップアイデアを入力、送信ボタン -->
 <div class="idea-text">
 
 </div>
-<div class="idea-add">
-    <button>+</button>
+<div class="idea-addbutton">
+
 </div>
 
 <?php
